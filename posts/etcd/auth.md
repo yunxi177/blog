@@ -4,10 +4,11 @@ date = 2018-11-24T12:05:50+08:00
 tags = ["etcd"]
 categories = ["etcd"]
 +++
-
 # etcd入门系列
 [一. etcd在docker中的安装与使用](http://www.artacode.com/posts/etcd/install/)  
 [二. etcd 开启 https](http://www.artacode.com/posts/etcd/enable-https/)  
+[三. 身份验证访问控制](http://www.artacode.com/posts/etcd/enable-https/)  
+[四. 开启客户端证书访问](http://www.artacode.com/posts/etcd/certificates/)
 
 # 1. 简介
 etcd 默认是没有开启访问控制的，如果我们开启外网访问的话就需要考虑访问控制的问题，etcd 提供了两种访问控制的方式：

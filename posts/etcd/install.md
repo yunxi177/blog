@@ -8,6 +8,7 @@ categories = ["etcd"]
 [一. etcd在docker中的安装与使用](http://www.artacode.com/posts/etcd/install/)  
 [二. etcd 开启 https](http://www.artacode.com/posts/etcd/enable-https/)  
 [三. 身份验证访问控制](http://www.artacode.com/posts/etcd/enable-https/)  
+[四. 开启客户端证书访问](http://www.artacode.com/posts/etcd/certificates/)
 
 # 简介
 etcd是CoreOS团队于2013年6月发起的开源项目，它的目标是构建一个高可用的分布式键值(key-value)数据库。etcd内部采用raft协议作为一致性算法，etcd基于Go语言实现。
